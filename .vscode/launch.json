@@ -1,0 +1,345 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [ 
+        {
+            "name": "Attach",
+            "port": 9229,
+            "request": "attach",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        
+        {
+            "type": "java",
+            "request": "attach",
+            "name": "Java",
+            "port": 5005,
+            "sourceRoots": []
+        },
+        {
+            "name": "Java",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ]
+        },
+        {
+            "name": "Java Console App",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ],
+            "externalConsole": true
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch array2",
+            "request": "launch",
+            "mainClass": "Arrays.array2",
+            "projectName": "Java_f6679f19"
+        },
+        {
+            "type": "java",
+            "name": "Launch array2D",
+            "request": "launch",
+            "mainClass": "Arrays.array2D",
+            "projectName": "Java_f6679f19"
+        },
+        {
+            "type": "java",
+            "name": "Launch array2d2",
+            "request": "launch",
+            "mainClass": "Arrays.array2d2",
+            "projectName": "Java_f6679f19"
+        },
+        {
+            "type": "java",
+            "name": "Launch array3",
+            "request": "launch",
+            "mainClass": "Arrays.array3",
+            "projectName": "Java_f6679f19"
+        },
+        {
+            "type": "java",
+            "name": "Launch array4",
+            "request": "launch",
+            "mainClass": "Arrays.array4",
+            "projectName": "Java_f6679f19"
+        },
+        {
+            "type": "java",
+            "name": "Launch array5",
+            "request": "launch",
+            "mainClass": "Arrays.array5",
+            "projectName": "Java_f6679f19"
+        },
+        {
+            "type": "java",
+            "name": "Launch array6",
+            "request": "launch",
+            "mainClass": "Arrays.array6",
+            "projectName": "Java_f6679f19"
+        },
+        {
+            "type": "java",
+            "name": "Launch arrays1",
+            "request": "launch",
+            "mainClass": "Arrays.arrays1",
+            "projectName": "Java_f6679f19"
+        },
+        {
+            "type": "java",
+            "name": "Launch GradingSystem",
+            "request": "launch",
+            "mainClass": "GradingSystem",
+            "projectName": "Java_f6679f19"
+        },
+        {
+            "type": "java",
+            "name": "Launch bigo",
+            "request": "launch",
+            "mainClass": "bigo",
+            "projectName": "Java_f6679f19"
+        },
+        {
+            "type": "java",
+            "name": "Launch checkprime",
+            "request": "launch",
+            "mainClass": "checkprime",
+            "projectName": "Java_f6679f19"
+        },
+        {
+            "type": "java",
+            "name": "Launch count",
+            "request": "launch",
+            "mainClass": "count",
+            "projectName": "Java_f6679f19"
+        },
+        {
+            "type": "java",
+            "name": "Launch fibonacci",
+            "request": "launch",
+            "mainClass": "fibonacci",
+            "projectName": "Java_f6679f19"
+        },
+        {
+            "type": "java",
+            "name": "Launch function11",
+            "request": "launch",
+            "mainClass": "function11",
+            "projectName": "Java_f6679f19"
+        },
+        {
+            "type": "java",
+            "name": "Launch functions",
+            "request": "launch",
+            "mainClass": "functions",
+            "projectName": "Java_f6679f19"
+        },
+        {
+            "type": "java",
+            "name": "Launch functions10",
+            "request": "launch",
+            "mainClass": "functions10",
+            "projectName": "Java_f6679f19"
+        },
+        {
+            "type": "java",
+            "name": "Launch functions12",
+            "request": "launch",
+            "mainClass": "functions12",
+            "projectName": "Java_f6679f19"
+        },
+        {
+            "type": "java",
+            "name": "Launch functions2",
+            "request": "launch",
+            "mainClass": "functions2",
+            "projectName": "Java_f6679f19"
+        },
+        {
+            "type": "java",
+            "name": "Launch functions3",
+            "request": "launch",
+            "mainClass": "functions3",
+            "projectName": "Java_f6679f19"
+        },
+        {
+            "type": "java",
+            "name": "Launch functions4",
+            "request": "launch",
+            "mainClass": "functions4",
+            "projectName": "Java_f6679f19"
+        },
+        {
+            "type": "java",
+            "name": "Launch functions5",
+            "request": "launch",
+            "mainClass": "functions5",
+            "projectName": "Java_f6679f19"
+        },
+        {
+            "type": "java",
+            "name": "Launch functions6",
+            "request": "launch",
+            "mainClass": "functions6",
+            "projectName": "Java_f6679f19"
+        },
+        {
+            "type": "java",
+            "name": "Launch functions7",
+            "request": "launch",
+            "mainClass": "functions7",
+            "projectName": "Java_f6679f19"
+        },
+        {
+            "type": "java",
+            "name": "Launch functions8",
+            "request": "launch",
+            "mainClass": "functions8",
+            "projectName": "Java_f6679f19"
+        },
+        {
+            "type": "java",
+            "name": "Launch functions9",
+            "request": "launch",
+            "mainClass": "functions9",
+            "projectName": "Java_f6679f19"
+        },
+        {
+            "type": "java",
+            "name": "Launch leapyear",
+            "request": "launch",
+            "mainClass": "leapyear",
+            "projectName": "Java_f6679f19"
+        },
+        {
+            "type": "java",
+            "name": "Launch patten",
+            "request": "launch",
+            "mainClass": "patten",
+            "projectName": "Java_f6679f19"
+        },
+        {
+            "type": "java",
+            "name": "Launch patten2",
+            "request": "launch",
+            "mainClass": "patten2",
+            "projectName": "Java_f6679f19"
+        },
+        {
+            "type": "java",
+            "name": "Launch patten3",
+            "request": "launch",
+            "mainClass": "patten3",
+            "projectName": "Java_f6679f19"
+        },
+        {
+            "type": "java",
+            "name": "Launch patten4",
+            "request": "launch",
+            "mainClass": "patten4",
+            "projectName": "Java_f6679f19"
+        },
+        {
+            "type": "java",
+            "name": "Launch patten5",
+            "request": "launch",
+            "mainClass": "patten5",
+            "projectName": "Java_f6679f19"
+        },
+        {
+            "type": "java",
+            "name": "Launch pattern6",
+            "request": "launch",
+            "mainClass": "pattern6",
+            "projectName": "Java_f6679f19"
+        },
+        {
+            "type": "java",
+            "name": "Launch pattern7",
+            "request": "launch",
+            "mainClass": "pattern7",
+            "projectName": "Java_f6679f19"
+        },
+        {
+            "type": "java",
+            "name": "Launch pattern8",
+            "request": "launch",
+            "mainClass": "pattern8",
+            "projectName": "Java_f6679f19"
+        },
+        {
+            "type": "java",
+            "name": "Launch pattern9",
+            "request": "launch",
+            "mainClass": "pattern9",
+            "projectName": "Java_f6679f19"
+        },
+        {
+            "type": "java",
+            "name": "Launch printn",
+            "request": "launch",
+            "mainClass": "printn",
+            "projectName": "Java_f6679f19"
+        },
+        {
+            "type": "java",
+            "name": "Launch string",
+            "request": "launch",
+            "mainClass": "string",
+            "projectName": "Java_f6679f19"
+        },
+        {
+            "type": "java",
+            "name": "Launch stringBuilder",
+            "request": "launch",
+            "mainClass": "strings.stringBuilder",
+            "projectName": "Java_f6679f19"
+        },
+        {
+            "type": "java",
+            "name": "Launch strings",
+            "request": "launch",
+            "mainClass": "strings.strings",
+            "projectName": "Java_f6679f19"
+        },
+        {
+            "type": "java",
+            "name": "Launch sum",
+            "request": "launch",
+            "mainClass": "sum",
+            "projectName": "Java_f6679f19"
+        },
+        {
+            "type": "java",
+            "name": "Launch volume",
+            "request": "launch",
+            "mainClass": "volume",
+            "projectName": "Java_f6679f19"
+        }
+    ]
+}
